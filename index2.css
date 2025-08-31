@@ -129,8 +129,56 @@
     }
 }
 
+@media(max-width : 820px) and (max-width:1200px)
+{
+    
+    #about-heading.scrolled{
+        animation : none;
+    }
+    #about-detail.scrolled{
+        animation : none;
+    }
+    #skill-1.scrolled{
+        animation : none;
+    }
+    #skill-2.scrolled{
+        animation : none;
+    }
+    #skill-3.scrolled{
+        animation : none;
+    }
+    #skill-4.scrolled{
+        animation : none;
+    }
+    #skill-5.scrolled{
+        animation : none;
+    }
+    #skill-6.scrolled{
+        animation : none;
+    }
+    #skill-7.scrolled{
+        animation : none;
+    }
+    #skill-8.scrolled{
+        animation : none;
+    }
+    #projetc-1.scrolled{
+        animation : none;
+    }
+    #project-2.scrolled{
+        animation : none;
+    }
+    #project-3.scrolled{
+        animation : none;
+    }
+    #contact.scrolled{
+        animation : none;
+    }
+
+}
 @media (max-width : 820px)
 {
+
     .navbar-section{
         display : none;
     }
