@@ -129,50 +129,56 @@
     }
 }
 
+@keyframes phone-anima{
+    100%{
+        opacity : 0;
+    }
+}
+
 @media(max-width : 820px)
 {
     
     #about-heading.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #about-detail.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #skill-1.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #skill-2.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #skill-3.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #skill-4.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #skill-5.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #skill-6.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #skill-7.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #skill-8.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #projetc-1.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #project-2.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #project-3.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
     #contact.scrolled{
-        animation : none;
+        animation : phone-anima 1s;
     }
 
 }
@@ -180,10 +186,10 @@
 {
 
     .navbar-section{
-        display : none;
+        display : phone-anima 1s;
     }
     .home-photo{
-        display : none;
+        display : phone-anima 1s;
     }
 
     .home-section h3{
@@ -228,7 +234,7 @@
 }
 @media(width : 912px){
     .home-photo{
-        display : none;
+        display : phone-anima 1s;
     }
     .media{
         width : 100%;
