@@ -129,17 +129,13 @@
     }
 }
 
-@keyframes phone-anima{
-    100%{
-        opacity : 0;
-    }
-}
 
+/* 
 @media(max-width : 820px)
 {
     
     #about-heading.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
     }
     #about-detail.scrolled{
         animation : phone-anima 1s;
@@ -181,15 +177,17 @@
         animation : phone-anima 1s;
     }
 
-}
+} */
+
+
 @media (max-width : 820px)
 {
 
     .navbar-section{
-        display : phone-anima 1s;
+        display : none;
     }
     .home-photo{
-        display : phone-anima 1s;
+        display : none;
     }
 
     .home-section h3{
@@ -234,7 +232,7 @@
 }
 @media(width : 912px){
     .home-photo{
-        display : phone-anima 1s;
+        display : none;
     }
     .media{
         width : 100%;
