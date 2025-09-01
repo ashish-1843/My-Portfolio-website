@@ -5,27 +5,28 @@
 
 @keyframes typing {
   0% { content: "Web Designer."; width: 0ch; }
-  20% { content: "Web Designer."; width: 6ch; }   /* type Ashish */
-  30% { width: 0ch; }                      /* delete */
+  20% { content: "Web Designer."; width: 6ch; }   
+  30% { width: 0ch; }                     
   40% { content: "Full Stack Developer."; width: 0ch; }
-  60% { content: "Full Stack Developer."; width: 5ch; }    /* type Rahul */
-  70% { width: 0ch; }                      /* delete */
+  60% { content: "Full Stack Developer."; width: 5ch; }    
+  70% { width: 0ch; }                     
   80% { content: "Gamer.";width: 0ch; }
-  100% { content: "Gamer."; width: 5ch; }   /* type Sneha */
+  100% { content: "Gamer."; width: 5ch; }   
 }
 
-@keyframes words {
-    0%,33%{
+/* @keyframes words {
+    0%,20%{
         content : "Web Designer.";
     }
-    24%,66%{
+   
+    40%,60%{
         content : "Full Stack Developer.";
     }
-    67%,100%{
+    80%,100%{
         content : "Gamer.";
     }
     
-}
+} */
 
 @keyframes sliderBottom {
     0%{
@@ -130,54 +131,72 @@
 }
 
 
-/* 
+
 @media(max-width : 820px)
 {
+    .home-section span::before{
+        animation : none;
+        font-size : 26px;
+    }
     
     #about-heading.scrolled{
         animation : none !important;
+        opacity : 1;
     }
     #about-detail.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
+        opacity : 1;
     }
     #skill-1.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
+        opacity : 1;
     }
     #skill-2.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
+        opacity : 1;
     }
     #skill-3.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
+        opacity : 1;
     }
     #skill-4.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
+        opacity : 1;
     }
     #skill-5.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
+        opacity : 1;
     }
     #skill-6.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
+        opacity : 1;
     }
     #skill-7.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
+        opacity : 1;
     }
     #skill-8.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
+        opacity : 1;
     }
-    #projetc-1.scrolled{
-        animation : phone-anima 1s;
+    #project-1.scrolled{
+        animation : none !important;
+        opacity : 1;
     }
     #project-2.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
+        opacity : 1;
     }
     #project-3.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
+        opacity : 1;
     }
     #contact.scrolled{
-        animation : phone-anima 1s;
+        animation : none !important;
+        opacity : 1;
     }
 
-} */
+}
 
 
 @media (max-width : 820px)
@@ -197,6 +216,9 @@
         font-size : 52px;
     }
 
+    .header-section .Ashish{
+        margin-left : 20px;
+    }
     #About-section{
         display : block;
         margin-top : 140px;

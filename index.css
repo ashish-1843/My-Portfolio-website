@@ -210,7 +210,7 @@ header{
 }
 
 .home-section span::before{
-    content : "Web Developer";
+    content : "Web Developer.";
     color : #7F8CAA;
     text-shadow : 2px 0px 2px black;
     animation: 
