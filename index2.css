@@ -141,59 +141,59 @@
     
     #about-heading.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
     #about-detail.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
     #skill-1.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
     #skill-2.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important; 
     }
     #skill-3.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
     #skill-4.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
     #skill-5.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
     #skill-6.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
     #skill-7.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
     #skill-8.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
     #project-1.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
     #project-2.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
     #project-3.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
     #contact.scrolled{
         animation : none !important;
-        opacity : 1;
+        opacity : 1 !important;
     }
 
 }
