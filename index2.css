@@ -230,6 +230,18 @@
         text-align : start;
         font-size : 15px;
     }
+    .skill-div{
+        width : 120px;
+        height : 140px;
+    }
+    .skill-img img{
+        height : 60px;
+    }
+    .skill-div h3{
+        font-size : 18px;
+        margin-top : 8px;
+        text-align : center;
+    }
     .project-div{
         display : inline-flex;
         align-items: center;
