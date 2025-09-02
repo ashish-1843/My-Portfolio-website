@@ -1,9 +1,8 @@
 @keyframes cursor {
-    to{ border-left : 2px solid #7F8CAA;}
-     
+    50%{ border-color : transparent;}  
 }
 
-@keyframes typing {
+/* @keyframes typing {
   0% { content: "Web Designer."; width: 0ch; }
   20% { content: "Web Designer."; width: 6ch; }   
   30% { width: 0ch; }                     
@@ -12,7 +11,7 @@
   70% { width: 0ch; }                     
   80% { content: "Gamer.";width: 0ch; }
   100% { content: "Gamer."; width: 5ch; }   
-}
+} */
 
 /* @keyframes words {
     0%,20%{
@@ -134,7 +133,18 @@
 
 @media(max-width : 820px)
 {
+    /* .home-section h3::after{
+        content : "\A";
+        white-space: pre;
+    } */
+    .home-section span::after{
+        content: "\A";
+    }
+
     .home-section span::before{
+        content : " ";
+        content : "\A";
+        white-space: pre;
         animation : none;
         font-size : 26px;
     }

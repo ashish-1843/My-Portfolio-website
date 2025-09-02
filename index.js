@@ -96,3 +96,40 @@ window.addEventListener('scroll', () => {
         contactme.classList.add('scrolled');
     }
 })
+
+const words = ["Web Developer.", "Full Stack Developer.", "Gamer."];
+    let i = 0;
+    let j = 0;
+    let currentWord = "";
+    let isDeleting = false;
+    const speed = 150; // typing speed
+    const eraseSpeed = 80; // deleting speed
+    const delayBetween = 1000; // pause after word is typed
+
+    function type() {
+      currentWord = words[i];
+      const typingElement = document.getElementById("typing");
+
+      if (!isDeleting) {
+        typingElement.textContent = currentWord.substring(0, j + 1);
+        j++;
+
+        if (j === currentWord.length) {
+          isDeleting = true;
+          setTimeout(type, delayBetween);
+          return;
+        }
+      } else {
+        typingElement.textContent = currentWord.substring(0, j - 1);
+        j--;
+
+        if (j === 0) {
+          isDeleting = false;
+          i = (i + 1) % words.length;
+        }
+      }
+
+      setTimeout(type, isDeleting ? eraseSpeed : speed);
+    }
+
+    type();
