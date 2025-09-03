@@ -25,7 +25,7 @@ const skillscroll = 1000;
 const projectanima = 1600;
 const projectscroll = 1700;
 const aaboutanimation = 20;
-const contactanima = 2600;
+const contactanima = 2400;
 const contactscroll = 2700;
 
 window.addEventListener('scroll', () => {
