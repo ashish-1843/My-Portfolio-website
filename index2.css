@@ -150,60 +150,60 @@
     }
     
     #about-heading.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
     #about-detail.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
     #skill-1.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
     #skill-2.scrolled{
+        opacity : 1 !important;
         animation : none !important;
-        opacity : 1 !important; 
     }
     #skill-3.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
     #skill-4.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
     #skill-5.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
     #skill-6.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
     #skill-7.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
     #skill-8.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
     #project-1.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
     #project-2.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
     #project-3.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
     #contact.scrolled{
-        animation : none !important;
         opacity : 1 !important;
+        animation : none !important;
     }
 
 }
@@ -282,6 +282,12 @@
         width : 100%;
     }
 }
+
+@media(width : 1024px){
+    .project-div{
+        width : 350px;
+    }
+}
 @media (max-width : 1200px)
 {
     
@@ -301,6 +307,7 @@
     .media{
         margin-top : 0px;
     }
+
      .project-div{
         display : inline-flex;
         align-items: center;
